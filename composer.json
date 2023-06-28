@@ -1,0 +1,20 @@
+{
+    "name": "apolm02-028/prueba-php",
+    "description": "Prueba php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Javid495",
+            "email": "125301562+Javid495@users.noreply.github.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\":"./Config",
+            "Models\\":"./Models",
+            "Controllers\\":"./controllers"
+        }
+    }
+}
